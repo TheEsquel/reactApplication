@@ -25,5 +25,5 @@ console.log('These are some random numbers: ' + randomNumbers);
 // console.log(`average is a ${typeof average}`)
 console.log('and  this is the average for them is ' + average(randomNumbers))
 
-$('.sum').text('These are some random numbers: ' + randomNumbers)
-$('.average').text('and  this is the average for them is ' + average(randomNumbers))
+$('.sum').text('These are some random numbers: '  + randomNumbers)
+$('.average').text('and the average for them is: ' + average(randomNumbers))
