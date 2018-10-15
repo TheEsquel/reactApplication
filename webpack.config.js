@@ -1,5 +1,6 @@
 let path = require ('path')
-//  path  
+
+
 let conf = 
 {
     entry: './src/index.js',
@@ -10,6 +11,15 @@ let conf =
     },
     devServer: {
         overlay: true
+    },
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                loader: 'babel-loader',
+                exclude: '/node_modules/'
+            }
+        ]
     }
 };
 
