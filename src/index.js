@@ -19,6 +19,9 @@ let getRandomNumbers = (length, max) =>
         return randomNumbers    
     }
 let randomNumbers = getRandomNumbers(10000, 100)
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './css/style.css'
+
 
 console.log('These are some random numbers: ' + randomNumbers);
 // console.log(`randomNumbers is a ${typeof randomNumbers}`)
